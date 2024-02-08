@@ -1,22 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.css'; // إذا كنت تستخدم CSS لتصميم
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>مرحبًا بك في موقعي الشخصي</h1>
+        <p>نبذة عني: هنا يمكنك وضع وصف قصير عن نفسك</p>
+        <p>مشاريعي: يمكنك عرض مشاريعك هنا أو إضافة صفحة منفصلة لذلك</p>
       </header>
     </div>
   );
